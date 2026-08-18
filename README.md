@@ -1,4 +1,4 @@
-# 🃏 articulo-a-anki — de PDF a cartas Anki
+# 🃏 paper2anki — de PDF a cartas Anki
 
 Convierte un artículo científico (PDF) en **25-30 cartas de repaso estilo Anki**
 (pregunta → respuesta), en español, con enfoque médico, usando DeepSeek.
@@ -40,10 +40,10 @@ Necesitas `DEEPSEEK_API_KEY` en el entorno (o en `~/.hermes/.env`, formato `DEEP
 ## 🚀 Uso
 
 ```bash
-python3 articulo_anki.py articulo.pdf                 # 25 cartas, salida junto al PDF
-python3 articulo_anki.py articulo.pdf --n 30          # hasta 30 cartas
-python3 articulo_anki.py articulo.pdf --out ~/Documents/Anki
-python3 articulo_anki.py articulo.pdf --cita "Yin 2025, Spine J"
+python3 paper2anki.py articulo.pdf                 # 25 cartas, salida junto al PDF
+python3 paper2anki.py articulo.pdf --n 30          # hasta 30 cartas
+python3 paper2anki.py articulo.pdf --out ~/Documents/Anki
+python3 paper2anki.py articulo.pdf --cita "Yin 2025, Spine J"
 ```
 
 ### Opciones

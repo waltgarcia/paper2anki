@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""articulo_anki.py — convierte un artículo (PDF) en 25-30 cartas Anki (Q/A) con DeepSeek.
-Uso: /usr/bin/python3 articulo_anki.py articulo.pdf [--n 25] [--out DIR] [--cita "Autor Año, Rev"] [--max-chars 14000]
+"""paper2anki.py — convierte un artículo (PDF) en 25-30 cartas Anki (Q/A) con DeepSeek.
+Uso: /usr/bin/python3 paper2anki.py articulo.pdf [--n 25] [--out DIR] [--cita "Autor Año, Rev"] [--max-chars 14000]
 Salida: <nombre>_<n>cartas.tsv (importable en Anki) + .apkg si genanki está instalado.
 """
 import argparse, json, os, re, sys
